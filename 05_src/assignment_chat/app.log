@@ -1,0 +1,130 @@
+2026-11-14 15:38:51,839 INFO HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-14 15:38:52,086 INFO HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-14 15:38:52,165 INFO HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-11-14 15:38:52,218 INFO HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-11-14 15:38:52,260 INFO HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-11-14 15:41:32,924 INFO HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:00:39,958 INFO __main__: Logging to C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\app.log
+2026-11-14 16:00:39,958 INFO __main__: ChromaDB path: C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\chroma_db
+2026-11-14 16:00:39,958 INFO __main__: City coordinates CSV path: C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\city_coordinates.csv
+2026-11-14 16:00:42,137 INFO __main__: Launching GlobeTrotter
+2026-11-14 16:00:42,138 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-14 16:00:42,413 INFO httpx: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-11-14 16:00:42,423 INFO httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-14 16:00:42,464 INFO httpx: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-11-14 16:00:42,510 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-11-14 16:01:17,745 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:01:17,753 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 16:01:17,753 INFO __main__: Assistant response received; tool calls: ['semantic_search_cities']
+2026-11-14 16:01:17,753 INFO __main__: Executing tool: semantic_search_cities
+2026-11-14 16:01:18,057 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/embeddings "HTTP/1.1 403 Forbidden"
+2026-11-14 16:01:20,058 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:01:20,059 INFO __main__: Final chat-completion request succeeded
+2026-11-14 16:06:11,811 INFO __main__: Logging to C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\app.log
+2026-11-14 16:06:11,812 INFO __main__: ChromaDB path: C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\chroma_db
+2026-11-14 16:06:11,812 INFO __main__: City coordinates CSV path: C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\city_coordinates.csv
+2026-11-14 16:06:13,942 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-14 16:06:13,972 INFO __main__: Launching GlobeTrotter
+2026-11-14 16:06:14,242 INFO httpx: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-11-14 16:06:14,249 INFO httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-14 16:06:14,277 INFO httpx: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-11-14 16:06:14,309 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-11-14 16:07:07,826 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:07:07,833 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 16:07:07,833 INFO __main__: Assistant response received; tool calls: ['semantic_search_cities']
+2026-11-14 16:07:07,833 INFO __main__: Executing tool: semantic_search_cities
+2026-11-14 16:07:08,548 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/embeddings "HTTP/1.1 403 Forbidden"
+2026-11-14 16:07:10,093 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:07:10,093 INFO __main__: Final chat-completion request succeeded
+2026-11-14 16:07:41,616 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:07:41,616 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 16:07:41,616 INFO __main__: Assistant response received; tool calls: ['semantic_search_cities']
+2026-11-14 16:07:41,616 INFO __main__: Executing tool: semantic_search_cities
+2026-11-14 16:07:41,818 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/embeddings "HTTP/1.1 403 Forbidden"
+2026-11-14 16:07:43,271 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:07:43,272 INFO __main__: Final chat-completion request succeeded
+2026-11-14 16:08:23,511 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:08:23,512 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 16:08:23,512 INFO __main__: Assistant response received; tool calls: ['get_weather']
+2026-11-14 16:08:23,512 INFO __main__: Executing tool: get_weather
+2026-11-14 16:08:24,449 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:08:24,450 INFO __main__: Final chat-completion request succeeded
+2026-11-14 16:09:08,378 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:09:08,380 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 16:09:08,380 INFO __main__: Assistant response received; tool calls: ['get_travel_info']
+2026-11-14 16:09:08,380 INFO __main__: Executing tool: get_travel_info
+2026-11-14 16:09:09,264 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 16:09:09,264 INFO __main__: Final chat-completion request succeeded
+2026-11-14 18:43:23,976 INFO __main__: Logging to C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\app.log
+2026-11-14 18:43:23,976 INFO __main__: ChromaDB path: C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\chroma_db
+2026-11-14 18:43:23,976 INFO __main__: City coordinates CSV path: C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\city_coordinates.csv
+2026-11-14 18:43:26,254 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-14 18:43:26,328 INFO __main__: Launching GlobeTrotter
+2026-11-14 18:43:26,560 INFO httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-14 18:43:26,633 INFO httpx: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-11-14 18:43:26,656 INFO httpx: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-11-14 18:43:26,693 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-11-14 18:44:10,692 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:44:10,701 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 18:44:10,701 INFO __main__: Assistant response received; tool calls: ['get_travel_info']
+2026-11-14 18:44:10,701 INFO __main__: Executing tool: get_travel_info
+2026-11-14 18:44:11,760 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:44:11,761 INFO __main__: Final chat-completion request succeeded
+2026-11-14 18:48:03,976 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:48:03,976 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 18:48:03,976 INFO __main__: Assistant response received; tool calls: ['semantic_search_cities']
+2026-11-14 18:48:03,976 INFO __main__: Executing tool: semantic_search_cities
+2026-11-14 18:48:04,673 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-14 18:48:06,472 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:48:06,472 INFO __main__: Final chat-completion request succeeded
+2026-11-14 18:50:44,837 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:50:44,837 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 18:50:44,837 INFO __main__: Assistant response received; tool calls: []
+2026-11-14 18:51:11,568 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:51:11,569 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 18:51:11,569 INFO __main__: Assistant response received; tool calls: []
+2026-11-14 18:52:52,289 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:52:52,290 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 18:52:52,290 INFO __main__: Assistant response received; tool calls: []
+2026-11-14 18:57:57,141 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:57:57,141 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 18:57:57,143 INFO __main__: Assistant response received; tool calls: []
+2026-11-14 18:58:17,144 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:58:17,144 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 18:58:17,144 INFO __main__: Assistant response received; tool calls: []
+2026-11-14 18:59:02,887 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:59:02,888 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 18:59:02,888 INFO __main__: Assistant response received; tool calls: []
+2026-11-14 18:59:36,737 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 18:59:36,738 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 18:59:36,738 INFO __main__: Assistant response received; tool calls: []
+2026-11-14 19:51:21,319 INFO __main__: Logging to C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\app.log
+2026-11-14 19:51:21,319 INFO __main__: ChromaDB path: C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\chroma_db
+2026-11-14 19:51:21,319 INFO __main__: City coordinates CSV path: C:\Users\km_adm\Desktop\DSI\repos\deploying-ai\05_src\assignment_chat\city_coordinates.csv
+2026-11-14 19:51:23,487 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-initiated-analytics "HTTP/1.1 200 OK"
+2026-11-14 19:51:23,523 INFO __main__: Launching GlobeTrotter
+2026-11-14 19:51:23,799 INFO httpx: HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-11-14 19:51:23,804 INFO httpx: HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-11-14 19:51:23,824 INFO httpx: HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-11-14 19:51:23,858 INFO httpx: HTTP Request: HEAD https://huggingface.co/api/telemetry/https%3A/api.gradio.app/gradio-launched-telemetry "HTTP/1.1 200 OK"
+2026-11-14 19:54:07,963 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 19:54:07,971 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 19:54:07,971 INFO __main__: Assistant response received; tool calls: ['semantic_search_cities', 'semantic_search_cities']
+2026-11-14 19:54:07,971 INFO __main__: Executing tool: semantic_search_cities
+2026-11-14 19:54:08,365 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-14 19:54:08,410 INFO __main__: Executing tool: semantic_search_cities
+2026-11-14 19:54:08,822 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/embeddings "HTTP/1.1 200 OK"
+2026-11-14 19:54:10,273 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 19:54:10,274 INFO __main__: Final chat-completion request succeeded
+2026-11-14 19:54:58,358 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 19:54:58,359 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 19:54:58,359 INFO __main__: Assistant response received; tool calls: ['get_travel_info']
+2026-11-14 19:54:58,359 INFO __main__: Executing tool: get_travel_info
+2026-11-14 19:54:59,174 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 19:54:59,175 INFO __main__: Final chat-completion request succeeded
+2026-11-14 19:55:28,985 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 19:55:28,987 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 19:55:28,987 INFO __main__: Assistant response received; tool calls: []
+2026-11-14 19:56:25,971 INFO httpx: HTTP Request: POST https://k7uffyg03f.execute-api.us-east-1.amazonaws.com/prod/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-11-14 19:56:25,971 INFO __main__: Initial chat-completion request succeeded
+2026-11-14 19:56:25,972 INFO __main__: Assistant response received; tool calls: []
